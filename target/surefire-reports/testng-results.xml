@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16159" started-at="2018-02-27T04:57:48Z" finished-at="2018-02-27T04:58:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16159" started-at="2018-02-27T04:57:48Z" finished-at="2018-02-27T04:58:04Z">
+      <class name="TWITTERAPI.twitter">
+        <test-method status="PASS" signature="deleteTweet()[pri:0, instance:TWITTERAPI.twitter@4a22f9e2]" name="deleteTweet" duration-ms="1641" started-at="2018-02-26T22:57:59Z" finished-at="2018-02-26T22:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTweet -->
+        <test-method status="PASS" signature="getAllTweets()[pri:0, instance:TWITTERAPI.twitter@4a22f9e2]" name="getAllTweets" duration-ms="518" started-at="2018-02-26T22:58:01Z" finished-at="2018-02-26T22:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllTweets -->
+        <test-method status="PASS" signature="postTweet()[pri:0, instance:TWITTERAPI.twitter@4a22f9e2]" name="postTweet" duration-ms="703" started-at="2018-02-26T22:58:01Z" finished-at="2018-02-26T22:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTweet -->
+      </class> <!-- TWITTERAPI.twitter -->
+      <class name="BasicTests.Basic2">
+        <test-method status="PASS" signature="postData()[pri:0, instance:BasicTests.Basic2@418e7838]" name="postData" duration-ms="4872" started-at="2018-02-26T22:57:48Z" finished-at="2018-02-26T22:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic2@418e7838]" name="postanddeleteData" duration-ms="1338" started-at="2018-02-26T22:57:53Z" finished-at="2018-02-26T22:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postanddeleteData -->
+      </class> <!-- BasicTests.Basic2 -->
+      <class name="BasicTests.Basic5">
+        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic5@4b5d6a01]" name="Test" duration-ms="1068" started-at="2018-02-26T22:57:57Z" finished-at="2018-02-26T22:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- BasicTests.Basic5 -->
+      <class name="BasicTests.Basic3">
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic3@3d680b5a]" name="getData" is-config="true" duration-ms="11" started-at="2018-02-26T22:57:48Z" finished-at="2018-02-26T22:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic4XML@3c419631]" name="getData" is-config="true" duration-ms="1" started-at="2018-02-26T22:57:48Z" finished-at="2018-02-26T22:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:BasicTests.Basic5@4b5d6a01]" name="getData" is-config="true" duration-ms="0" started-at="2018-02-26T22:57:48Z" finished-at="2018-02-26T22:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:TWITTERAPI.twitter@4a22f9e2]" name="getData" is-config="true" duration-ms="2" started-at="2018-02-26T22:57:48Z" finished-at="2018-02-26T22:57:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic3@3d680b5a]" name="Test" duration-ms="1354" started-at="2018-02-26T22:57:54Z" finished-at="2018-02-26T22:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic3@3d680b5a]" name="postanddeleteData" duration-ms="1635" started-at="2018-02-26T22:57:55Z" finished-at="2018-02-26T22:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postanddeleteData -->
+      </class> <!-- BasicTests.Basic3 -->
+      <class name="BasicTests.Basic4XML">
+        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.Basic4XML@3c419631]" name="Test" duration-ms="720" started-at="2018-02-26T22:58:02Z" finished-at="2018-02-26T22:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="postanddeleteData()[pri:0, instance:BasicTests.Basic4XML@3c419631]" name="postanddeleteData" duration-ms="1424" started-at="2018-02-26T22:58:03Z" finished-at="2018-02-26T22:58:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postanddeleteData -->
+      </class> <!-- BasicTests.Basic4XML -->
+      <class name="BasicTests.TestNG">
+        <test-method status="PASS" signature="Test()[pri:0, instance:BasicTests.TestNG@61230f6a]" name="Test" duration-ms="844" started-at="2018-02-26T22:57:58Z" finished-at="2018-02-26T22:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- BasicTests.TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
